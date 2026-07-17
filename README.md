@@ -1,12 +1,22 @@
-# Парсер мониторинга цен конкурентов
-Инструмент для автоматического сбора и мониторинга цен конкурентов с маркетплейсов. Разработан в рамках работы в Ikon Tyres.
-## Что делает
+# Competitor Price Monitoring Parser
 
-Автоматически собирает цены конкурентов по заданным SKU
-Сохраняет данные в структурированном формате для дальнейшего анализа
-Экономит 20+ часов ручной работы команды в месяц
+Automated tool for collecting and monitoring competitor prices 
+from tyre marketplaces. Developed during work at Ikon Tyres 
+(formerly Nokian Tyres).
 
-## Стек
-Python · BeautifulSoup · requests · pandas
-## Результат
-Данные используются для ценового позиционирования и подготовки отчётов в Tableau / Power BI
+## What it does
+- Automatically collects competitor prices by SKU
+- Bypasses anti-scraping protections (Cloudflare, dynamic pages)
+- Saves data in structured format for further analysis
+- Saved the team 20+ hours of manual work per month
+
+## Tech stack
+Python · BeautifulSoup · requests · pandas · Jupyter
+
+## Sites parsed
+- PitStopArabia (UAE market)
+- TireEx
+- YallaTyre
+
+## Results
+Data used for price positioning and reporting in Tableau / Power BI
